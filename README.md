@@ -9,4 +9,4 @@ I created a simple HTML website based on a university theme to showcase how acad
 -extras.html: Contains a table.
 
 `<details>`, `<dialog open>`, `<progress>`, `<meter>`.
-**Live site:** https://<username>.github.io/<repo-name>/
+**Live site:** https://tiktak11.github.io/takura_html5-practical/
