@@ -1,0 +1,72 @@
+<!--tables, interactive HTML, microcontent-->
+<!doctype html>
+<HEAD>
+    <TITLE>USIU: Extras</TITLE>
+    <!--<link rel="stylesheet" href="webprac1.css">-->
+    <style>
+        h1{
+            color:blue;
+            text-align: center;
+        }
+        .list-one li{
+          display: inline;
+          margin-right: 10px; /* Optional: adds spacing between items */
+          color:black;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    </HEAD>
+<BODY BGCOLOR="FFFF00">
+    <img src="C:\Users\takur\OneDrive\Desktop\USIU School Work\2025\2\IST4035VA\lab 2\assets\images\USIU_Africa_Logo.png" 
+        alt="USIU logo"  height="200">
+        <header>
+            <h1>USIU - education to take you places</h1>
+            <nav aria-label="Primary">
+                <!--unordered list-->
+                <ul class="list-one">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="extras.html">Extras</a></li>
+                </ul>
+                </nav>
+        </header>
+        <h2 style="background-color:blue">Extras</h2>
+            <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:80%; margin:auto; font-family:Arial, sans-serif;">
+                <caption style="font-weight:bold; font-size:1.2em; margin:10px;">Class Schedule</caption>
+                <tr style="background:#003366; color:white;">
+                  <th>Code</th>
+                  <th>Title</th>
+                  <th>Lecturer</th>
+                  <th>Day</th>
+                  <th>Time</th>
+                  <th>Room</th>
+                </tr>
+                <tr>
+                  <td>CS101</td><td>Intro to Programming</td><td>Dr. Smith</td><td>Mon</td><td>09:00–11:00</td><td>Lab A</td>
+                </tr>
+                <tr style="background:#f2f2f2;">
+                  <td>CS205</td><td>Data Structures</td><td>Prof. Doe</td><td>Wed</td><td>10:00–12:00</td><td>204</td>
+                </tr>
+                <tr>
+                  <td>CS310</td><td>Database Systems</td><td>Dr. Lopez</td><td>Fri</td><td>14:00–16:00</td><td>305</td>
+                </tr>
+              </table>
+              <P>Details/summary and dialog (open by default):</P>
+              <details>
+                <summary>What is semantic HTML?</summary>
+                <p>Semantic HTML uses meaningful tags that describe their
+                content and role.</p>
+                </details>
+                <dialog open>
+                <p>This is an open dialog for demonstration (no JS
+                needed).</p>
+                </dialog>
+                <P>Progress & meter (not part of forms, allowed):</P>
+                <p>Reading progress: <progress value="40"
+                max="100">40%</progress></p>
+                <p>CPU load: <meter min="0" max="100" low="30" high="80"    
+                optimum="50" value="65">65%</meter></p>
+</body>
